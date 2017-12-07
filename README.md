@@ -22,33 +22,34 @@
 
 读取数据：readCharacter(String address);//主动特征值变化，该方法一般不用。无返回值。
 
-接收的广播：
-            BLE_CONN_SUCCESS -------蓝牙连接成功
-            BLE_CONN_SUCCESS_ALLCONNECTED -------蓝牙已经连接
-            BLE_CONN_FAIL -------蓝牙连接失败
-            BLE_CONN_DIS -------蓝牙断开连接
-            BLE_CONN_RSSI -------蓝牙信号强度
-            ACTION_BIND -------扫码绑定箱体
-            ACTION_POSSESSORFINGER -------所有人的指纹信息
-            ACTION_BECOMEFINGER -------静默功能的指纹信息
-            ACTION_CARRYFINGER -------携行人的指纹信息
-            ACTION_RECOVER -------恢复出厂
-            ACTION_ONEKEYCONFIG -------一键配置
-            ACTION_START_CARRYESCORT -------启动携行押运
-            ACTION_CLEARFINGER -------清除指纹
-            ACTION_BOX_MAC -------发送箱体MAC给腕表
-            ACTION_WATCH_HEART -------腕表的心跳
-            ACTION_HEART -------收到心跳
-            ACTION_DATA_ITEMFRAGMENT -------腕表的心跳
-            ACTION_LOCK_OPEN_SUCCED -------开锁成功
-            ACTION_LOCK_STARTS -------锁状态
-            ACTION_UUID -------获取UUID,箱体的UUID并非蓝牙的UUID
-            ACTION_BOX_VERSION -------获取箱体的版本号
-            ACTION_END_TAST -------结束携行押运
-            ACTION_DISCONNECT_BLE_AFFIRM -------断开确认
-            ACTION_TEMP_UPDATE -------温度更新
+###接收的广播：
 
-发送数据接口：
+       BLE_CONN_SUCCESS -------蓝牙连接成功;
+       BLE_CONN_SUCCESS_ALLCONNECTED -------蓝牙已经连接;
+       BLE_CONN_FAIL -------蓝牙连接失败;
+       BLE_CONN_DIS -------蓝牙断开连接;
+       BLE_CONN_RSSI -------蓝牙信号强度;
+       ACTION_BIND -------扫码绑定箱体;
+       ACTION_POSSESSORFINGER -------所有人的指纹信息;
+       ACTION_BECOMEFINGER -------静默功能的指纹信息;
+       ACTION_CARRYFINGER -------携行人的指纹信息;
+       ACTION_RECOVER -------恢复出厂;
+       ACTION_ONEKEYCONFIG -------一键配置;
+       ACTION_START_CARRYESCORT -------启动携行押运;
+       ACTION_CLEARFINGER -------清除指纹;
+       ACTION_BOX_MAC -------发送箱体MAC给腕表;
+       ACTION_WATCH_HEART -------腕表的心跳;
+       ACTION_HEART -------收到心跳;
+       ACTION_DATA_ITEMFRAGMENT -------腕表的心跳;
+       ACTION_LOCK_OPEN_SUCCED -------开锁成功;
+       ACTION_LOCK_STARTS -------锁状态;
+       ACTION_UUID -------获取UUID,箱体的UUID并非蓝牙的UUID;
+       ACTION_BOX_VERSION -------获取箱体的版本号;
+       ACTION_END_TAST -------结束携行押运;
+       ACTION_DISCONNECT_BLE_AFFIRM -------断开确认;
+       ACTION_TEMP_UPDATE -------温度更新;
+
+###发送数据接口：
         /**
          * 扫码绑定箱体，默认箱体所有人也是携行人
          */
