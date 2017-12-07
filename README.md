@@ -22,7 +22,7 @@
 
 读取数据：readCharacter(String address);//主动特征值变化，该方法一般不用。无返回值。
 
-###接收的广播：
+### 接收的广播：
 
        BLE_CONN_SUCCESS -------蓝牙连接成功;
        BLE_CONN_SUCCESS_ALLCONNECTED -------蓝牙已经连接;
@@ -49,7 +49,8 @@
        ACTION_DISCONNECT_BLE_AFFIRM -------断开确认;
        ACTION_TEMP_UPDATE -------温度更新;
 
-###发送数据接口：
+### 发送数据接口：
+
         /**
          * 扫码绑定箱体，默认箱体所有人也是携行人
          */
