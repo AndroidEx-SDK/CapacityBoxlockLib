@@ -1,4 +1,9 @@
 # CapacityBoxlockLib
+
+#### 联系作者：liyp@androidex.cn
+
+------------------版本：0.0.1-------------------------------
+
 ## 该库提供蓝牙连接、断开、搜索、连接判断、连接状态发生变化、获取连接设备、读取数据、写入数据、
 
 蓝牙相关主要通过BleService来实现，BleService是个单例，使用BleService.get()方法调用。
@@ -134,7 +139,7 @@
          * 发送密运箱的MAC
          */
         void sentBraceletMac(String address, String mac);
-
+------------------------0.0.1----------------------------------
 
 
 
